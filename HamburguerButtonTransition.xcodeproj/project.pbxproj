@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		459CABA4196C5BE800466515 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459CABA3196C5BE800466515 /* Foundation.framework */; };
+		459CABA6196C5BE800466515 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459CABA5196C5BE800466515 /* CoreGraphics.framework */; };
+		459CABA8196C5BE800466515 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459CABA7196C5BE800466515 /* UIKit.framework */; };
+		459CABAE196C5BE800466515 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 459CABAC196C5BE800466515 /* InfoPlist.strings */; };
+		459CABB0196C5BE800466515 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 459CABAF196C5BE800466515 /* main.m */; };
+		459CABB4196C5BE800466515 /* RMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 459CABB3196C5BE800466515 /* RMAppDelegate.m */; };
+		459CABB6196C5BE800466515 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459CABB5196C5BE800466515 /* Images.xcassets */; };
+		459CABBD196C5BE800466515 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459CABBC196C5BE800466515 /* XCTest.framework */; };
+		459CABBE196C5BE800466515 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459CABA3196C5BE800466515 /* Foundation.framework */; };
+		459CABBF196C5BE800466515 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459CABA7196C5BE800466515 /* UIKit.framework */; };
+		459CABC7196C5BE800466515 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 459CABC5196C5BE800466515 /* InfoPlist.strings */; };
+		459CABC9196C5BE800466515 /* HamburguerButtonTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 459CABC8196C5BE800466515 /* HamburguerButtonTransitionTests.m */; };
+		459CABD6196C5C9600466515 /* RMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 459CABD4196C5C9600466515 /* RMMainViewController.m */; };
+		459CABD7196C5C9600466515 /* RMMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 459CABD5196C5C9600466515 /* RMMainViewController.xib */; };
+		459CABDB196C5EE900466515 /* RMHamburguerTransitionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 459CABDA196C5EE900466515 /* RMHamburguerTransitionButton.m */; };
+		459CABDE196C77A200466515 /* CALayer+Addons.m in Sources */ = {isa = PBXBuildFile; fileRef = 459CABDD196C77A200466515 /* CALayer+Addons.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		459CABC0196C5BE800466515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 459CAB98196C5BE700466515 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 459CAB9F196C5BE800466515;
+			remoteInfo = HamburguerButtonTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		459CABA0196C5BE800466515 /* HamburguerButtonTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HamburguerButtonTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		459CABA3196C5BE800466515 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		459CABA5196C5BE800466515 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		459CABA7196C5BE800466515 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		459CABAB196C5BE800466515 /* HamburguerButtonTransition-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HamburguerButtonTransition-Info.plist"; sourceTree = "<group>"; };
+		459CABAD196C5BE800466515 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		459CABAF196C5BE800466515 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		459CABB1196C5BE800466515 /* HamburguerButtonTransition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HamburguerButtonTransition-Prefix.pch"; sourceTree = "<group>"; };
+		459CABB2196C5BE800466515 /* RMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMAppDelegate.h; sourceTree = "<group>"; };
+		459CABB3196C5BE800466515 /* RMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMAppDelegate.m; sourceTree = "<group>"; };
+		459CABB5196C5BE800466515 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		459CABBB196C5BE800466515 /* HamburguerButtonTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamburguerButtonTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		459CABBC196C5BE800466515 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		459CABC4196C5BE800466515 /* HamburguerButtonTransitionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HamburguerButtonTransitionTests-Info.plist"; sourceTree = "<group>"; };
+		459CABC6196C5BE800466515 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		459CABC8196C5BE800466515 /* HamburguerButtonTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HamburguerButtonTransitionTests.m; sourceTree = "<group>"; };
+		459CABD3196C5C9600466515 /* RMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMMainViewController.h; sourceTree = "<group>"; };
+		459CABD4196C5C9600466515 /* RMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMMainViewController.m; sourceTree = "<group>"; };
+		459CABD5196C5C9600466515 /* RMMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RMMainViewController.xib; sourceTree = "<group>"; };
+		459CABD9196C5EE900466515 /* RMHamburguerTransitionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMHamburguerTransitionButton.h; sourceTree = "<group>"; };
+		459CABDA196C5EE900466515 /* RMHamburguerTransitionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMHamburguerTransitionButton.m; sourceTree = "<group>"; };
+		459CABDC196C77A200466515 /* CALayer+Addons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Addons.h"; sourceTree = "<group>"; };
+		459CABDD196C77A200466515 /* CALayer+Addons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Addons.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		459CAB9D196C5BE800466515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459CABA6196C5BE800466515 /* CoreGraphics.framework in Frameworks */,
+				459CABA8196C5BE800466515 /* UIKit.framework in Frameworks */,
+				459CABA4196C5BE800466515 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459CABB8196C5BE800466515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459CABBD196C5BE800466515 /* XCTest.framework in Frameworks */,
+				459CABBF196C5BE800466515 /* UIKit.framework in Frameworks */,
+				459CABBE196C5BE800466515 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		459CAB97196C5BE700466515 = {
+			isa = PBXGroup;
+			children = (
+				459CABA9196C5BE800466515 /* HamburguerButtonTransition */,
+				459CABC2196C5BE800466515 /* HamburguerButtonTransitionTests */,
+				459CABA2196C5BE800466515 /* Frameworks */,
+				459CABA1196C5BE800466515 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		459CABA1196C5BE800466515 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				459CABA0196C5BE800466515 /* HamburguerButtonTransition.app */,
+				459CABBB196C5BE800466515 /* HamburguerButtonTransitionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		459CABA2196C5BE800466515 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				459CABA3196C5BE800466515 /* Foundation.framework */,
+				459CABA5196C5BE800466515 /* CoreGraphics.framework */,
+				459CABA7196C5BE800466515 /* UIKit.framework */,
+				459CABBC196C5BE800466515 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		459CABA9196C5BE800466515 /* HamburguerButtonTransition */ = {
+			isa = PBXGroup;
+			children = (
+				459CABD8196C5EA800466515 /* HamburguerTransitionButton */,
+				459CABD2196C5C2500466515 /* Demo */,
+				459CABB5196C5BE800466515 /* Images.xcassets */,
+				459CABAA196C5BE800466515 /* Supporting Files */,
+			);
+			path = HamburguerButtonTransition;
+			sourceTree = "<group>";
+		};
+		459CABAA196C5BE800466515 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				459CABAB196C5BE800466515 /* HamburguerButtonTransition-Info.plist */,
+				459CABAC196C5BE800466515 /* InfoPlist.strings */,
+				459CABAF196C5BE800466515 /* main.m */,
+				459CABB1196C5BE800466515 /* HamburguerButtonTransition-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		459CABC2196C5BE800466515 /* HamburguerButtonTransitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				459CABC8196C5BE800466515 /* HamburguerButtonTransitionTests.m */,
+				459CABC3196C5BE800466515 /* Supporting Files */,
+			);
+			path = HamburguerButtonTransitionTests;
+			sourceTree = "<group>";
+		};
+		459CABC3196C5BE800466515 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				459CABC4196C5BE800466515 /* HamburguerButtonTransitionTests-Info.plist */,
+				459CABC5196C5BE800466515 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		459CABD2196C5C2500466515 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				459CABB2196C5BE800466515 /* RMAppDelegate.h */,
+				459CABB3196C5BE800466515 /* RMAppDelegate.m */,
+				459CABD3196C5C9600466515 /* RMMainViewController.h */,
+				459CABD4196C5C9600466515 /* RMMainViewController.m */,
+				459CABD5196C5C9600466515 /* RMMainViewController.xib */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		459CABD8196C5EA800466515 /* HamburguerTransitionButton */ = {
+			isa = PBXGroup;
+			children = (
+				459CABD9196C5EE900466515 /* RMHamburguerTransitionButton.h */,
+				459CABDA196C5EE900466515 /* RMHamburguerTransitionButton.m */,
+				459CABDC196C77A200466515 /* CALayer+Addons.h */,
+				459CABDD196C77A200466515 /* CALayer+Addons.m */,
+			);
+			path = HamburguerTransitionButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		459CAB9F196C5BE800466515 /* HamburguerButtonTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 459CABCC196C5BE800466515 /* Build configuration list for PBXNativeTarget "HamburguerButtonTransition" */;
+			buildPhases = (
+				459CAB9C196C5BE800466515 /* Sources */,
+				459CAB9D196C5BE800466515 /* Frameworks */,
+				459CAB9E196C5BE800466515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HamburguerButtonTransition;
+			productName = HamburguerButtonTransition;
+			productReference = 459CABA0196C5BE800466515 /* HamburguerButtonTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		459CABBA196C5BE800466515 /* HamburguerButtonTransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 459CABCF196C5BE800466515 /* Build configuration list for PBXNativeTarget "HamburguerButtonTransitionTests" */;
+			buildPhases = (
+				459CABB7196C5BE800466515 /* Sources */,
+				459CABB8196C5BE800466515 /* Frameworks */,
+				459CABB9196C5BE800466515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				459CABC1196C5BE800466515 /* PBXTargetDependency */,
+			);
+			name = HamburguerButtonTransitionTests;
+			productName = HamburguerButtonTransitionTests;
+			productReference = 459CABBB196C5BE800466515 /* HamburguerButtonTransitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		459CAB98196C5BE700466515 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Caldofran;
+				TargetAttributes = {
+					459CABBA196C5BE800466515 = {
+						TestTargetID = 459CAB9F196C5BE800466515;
+					};
+				};
+			};
+			buildConfigurationList = 459CAB9B196C5BE700466515 /* Build configuration list for PBXProject "HamburguerButtonTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 459CAB97196C5BE700466515;
+			productRefGroup = 459CABA1196C5BE800466515 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				459CAB9F196C5BE800466515 /* HamburguerButtonTransition */,
+				459CABBA196C5BE800466515 /* HamburguerButtonTransitionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		459CAB9E196C5BE800466515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459CABAE196C5BE800466515 /* InfoPlist.strings in Resources */,
+				459CABB6196C5BE800466515 /* Images.xcassets in Resources */,
+				459CABD7196C5C9600466515 /* RMMainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459CABB9196C5BE800466515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459CABC7196C5BE800466515 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		459CAB9C196C5BE800466515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459CABB0196C5BE800466515 /* main.m in Sources */,
+				459CABDB196C5EE900466515 /* RMHamburguerTransitionButton.m in Sources */,
+				459CABB4196C5BE800466515 /* RMAppDelegate.m in Sources */,
+				459CABD6196C5C9600466515 /* RMMainViewController.m in Sources */,
+				459CABDE196C77A200466515 /* CALayer+Addons.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459CABB7196C5BE800466515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459CABC9196C5BE800466515 /* HamburguerButtonTransitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		459CABC1196C5BE800466515 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 459CAB9F196C5BE800466515 /* HamburguerButtonTransition */;
+			targetProxy = 459CABC0196C5BE800466515 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		459CABAC196C5BE800466515 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				459CABAD196C5BE800466515 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		459CABC5196C5BE800466515 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				459CABC6196C5BE800466515 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		459CABCA196C5BE800466515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		459CABCB196C5BE800466515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		459CABCD196C5BE800466515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HamburguerButtonTransition/HamburguerButtonTransition-Prefix.pch";
+				INFOPLIST_FILE = "HamburguerButtonTransition/HamburguerButtonTransition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		459CABCE196C5BE800466515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HamburguerButtonTransition/HamburguerButtonTransition-Prefix.pch";
+				INFOPLIST_FILE = "HamburguerButtonTransition/HamburguerButtonTransition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		459CABD0196C5BE800466515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HamburguerButtonTransition.app/HamburguerButtonTransition";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HamburguerButtonTransition/HamburguerButtonTransition-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HamburguerButtonTransitionTests/HamburguerButtonTransitionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		459CABD1196C5BE800466515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HamburguerButtonTransition.app/HamburguerButtonTransition";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HamburguerButtonTransition/HamburguerButtonTransition-Prefix.pch";
+				INFOPLIST_FILE = "HamburguerButtonTransitionTests/HamburguerButtonTransitionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		459CAB9B196C5BE700466515 /* Build configuration list for PBXProject "HamburguerButtonTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				459CABCA196C5BE800466515 /* Debug */,
+				459CABCB196C5BE800466515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		459CABCC196C5BE800466515 /* Build configuration list for PBXNativeTarget "HamburguerButtonTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				459CABCD196C5BE800466515 /* Debug */,
+				459CABCE196C5BE800466515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		459CABCF196C5BE800466515 /* Build configuration list for PBXNativeTarget "HamburguerButtonTransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				459CABD0196C5BE800466515 /* Debug */,
+				459CABD1196C5BE800466515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 459CAB98196C5BE700466515 /* Project object */;
+}
